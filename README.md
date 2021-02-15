@@ -2,6 +2,18 @@
 
 Repozitorij gradiv za Python osnovni tečaj.
 
+## Termini
+- 15.2. 
+22.2.
+1.3. 3. 
+8.3. 4.
+15.3. 5. 
+22.3. 6. 
+29.3. 7. 
+12.4. 8. 
+19.4. 9. 
+26.4. 10. 
+
 ## Vsebina:
 
 ### O Python-u
@@ -18,6 +30,7 @@ Repozitorij gradiv za Python osnovni tečaj.
 - Numerični podatkovni tipi (int, float)
 - Tekstovni podatkovni tip (string)
 - `bool` podatkovni tip
+- `None` podatkovni tip
 - `type()` funkcija
 - `input` funkcija
 
