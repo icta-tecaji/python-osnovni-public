@@ -26,8 +26,20 @@ Repozitorij gradiv za Python osnovni tečaj.
     - Mail pošljete na `leon.stefanic@ltfe.org`, `gregor.balkovec@ltfe.org` (oba maila)
 
 
-## Vsebina:
+## Vaje
+- https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt
+- https://pythonbasics.org/exercises/
+- https://exercism.io/tracks/python/exercises
+- https://edabit.com/challenges/python3
+- https://pynative.com/python-exercises-with-solutions/
+- https://www.practicepython.org/
+- https://www.w3resource.com/python-exercises/
 
+
+## Zanimive strani
+- https://realpython.com/
+
+## Vsebina:
 ### O Python-u
 - Uvod v programske jezike (interpreted, complied, ...)
 
