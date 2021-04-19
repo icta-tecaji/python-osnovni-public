@@ -15,6 +15,18 @@ Output:
 [1, 12, -3, 33, 12, -22, 33, 32]
 """
 # Rešitev
+def funkcija(l, m):
+    new_l = []
+    for ele in l:
+        if ele > m:
+            new_l.append(m)
+        else:
+            new_l.append(ele)
+
+    return new_l
+
+
+print(funkcija([1, 12, -3, 54, 12, -22, 65, 32], 33))
 
 
 """
@@ -37,6 +49,23 @@ Output:
 ​"""
 # Rešitev
 prices = ["$53", "$  120", "$ 1222", "$$342", " $ 91", " $ 51", "39$"]
+
+
+def funkcija(l, valuta):
+    new_prices = []
+    for price in l:
+        new_price = ""
+        for ch in price:
+            if ch == " " or ch == "$":
+                pass
+            else:
+                new_price += ch
+        new_price += valuta
+        new_prices.append(new_price)
+    return new_prices
+
+
+funkcija(prices, "€")
 
 
 """
@@ -84,3 +113,103 @@ TMMTVD TM WTPG
 # Rešitev
 message = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG"
 message2 = "ATTACK AT DAWN"
+
+
+def cesars_encryption(plaintext, shift=3):
+    abeceda = [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z",
+    ]
+    c_abeceda = abeceda[-shift:] + abeceda[:-shift]
+
+    cipher = ""
+    for ch in plaintext:
+        if ch == " ":
+            cipher += " "
+            continue
+        for i, ch2 in enumerate(abeceda):
+            if ch == ch2:
+                cipher += c_abeceda[i]
+
+    return cipher
+
+
+def cesars_decryption(cipher, shift=3):
+    abeceda = [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z",
+    ]
+    c_abeceda = abeceda[-shift:] + abeceda[:-shift]
+
+    message = ""
+    for ch in cipher:
+        if ch == " ":
+            message += " "
+            continue
+        for i, ch2 in enumerate(c_abeceda):
+            if ch == ch2:
+                message += abeceda[i]
+    return message
+
+
+message = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG"
+code = cesars_encryption(message)
+print(message)
+print(code)
+print()
+decoded = cesars_decryption(code)
+print(code)
+print(decoded)
+
+
+print()
+message2 = "ATTACK AT DAWN"
+cesars_encryption(message2, 7)
