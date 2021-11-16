@@ -1,4 +1,3 @@
-my first file
-This file
-
-contains four lines
+my first line
+my second line
+We are adding another line
