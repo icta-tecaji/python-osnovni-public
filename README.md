@@ -5,16 +5,16 @@ Vodila ga bova Gregor Balkovec in Anže Glušič.
 1 termin poteka 4 ure, 16:00 - 20:00. Umes bomo mel par pavzic.
 
 Datumi:
-tor 15.02.2022
-tor 21.02.2022
-tor 27.02.2022
-tor 1.03.2022
-tor 8.03.2022
-tor 15.03.2022
-tor 22.03.2022
-tor 29.03.2022
-tor 12.04.2022
-tor 19.04.2022 - IZPIT
+1. tor 15.02.2022
+2. tor 21.02.2022
+3. tor 27.02.2022
+4. tor 1.03.2022
+5. tor 8.03.2022
+6. tor 15.03.2022
+7. tor 22.03.2022
+8. tor 29.03.2022
+9. tor 12.04.2022
+10. tor 19.04.2022 - IZPIT
 
 ## Domače naloge
 Vsak teden bomo imeli domače naloge iz tematik katere smo obravnavali na tečaju.
