@@ -1,7 +1,0 @@
--r requirements.txt
-
-notebook
-jupyter
-flake8
-black
-rope
