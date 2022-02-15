@@ -2,7 +2,7 @@
 
 ## Osnovne informacije
 
-Trajanje: 10 tednov, 1x na tedn
+Trajanje: 10 tednov, 1x na tedn <br>
 Izpit: Zadnji teden
 
 Predavatelja: 
@@ -46,7 +46,7 @@ Email pošljete na <gregor.balkovec@ltfe.org> in <anze.glusic@ltfe.org>.
 
 ## Izpit
 
-Izpit bo potekal zadnji termin. Časa boste imeli vse 4 ure, vendar povprečno ljudlje potrebujejo približno 2 uri.
+Izpit bo potekal zadnji termin. Časa boste imeli vse 4 ure, vendar povprečno participanti potrebujejo približno 2 uri.
 
 Na izpitu vam je dovoljeno vse - internet, lastni zapiski, naši zapiski, itd. Le komunikacija (pogovarjanje, ...) ni odvoljena.
 
