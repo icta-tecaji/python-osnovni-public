@@ -16,7 +16,7 @@ Predavatelja:
 | Zaporedje | Datum | Dan | Tip |
 | :---: | :---: | :---: | :---: |
 | 1. | 15.2.2022 | Tor | Predavanje 1 |
-| 2. | 21.2.2022 | Tor | Predavanje 2 |
+| 2. | 22.2.2022 | Tor | Predavanje 2 |
 | 3. | 1.3.2022 | Tor | Predavanje 3 |
 | 4. | 8.3.2022 | Tor | Predavanje 4 |
 | 5. | 15.3.2022 | Tor | Predavanje 5 |
