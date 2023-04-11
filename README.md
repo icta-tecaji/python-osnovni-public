@@ -18,8 +18,8 @@ Po želji mamo lahko tud 2x na teden termine, da zaključmo pred poletnimi mesec
 | Zaporedje | Datum | Dan | Tip |
 | :---: | :---: | :---: | :---: |
 | 1. | 19.4.2023 | Sre | Predavanje 1 |
-| 2. | 26.4.2023 | Sre | Predavanje 2 | (prestavimo. 25.4. torek? 28.4. petek?)
-| 3. | 3.5.2023 | Sre | Predavanje 3 | (prestavimo? 5.5 petek?, 4.5. četrtek?)
+| 2. | 26.4.2023 | Sre | Predavanje 2 (prestavimo. 25.4. torek? 28.4. petek?)| 
+| 3. | 3.5.2023 | Sre | Predavanje 3 (prestavimo? 5.5 petek?, 4.5. četrtek?)| 
 | 4. | 10.5.2023 | Sre | Predavanje 4 |
 | 5. | 17.5.2023 | Sre | Predavanje 5 |
 | 6. | 24.5.2023 | Sre | Predavanje 6 |
