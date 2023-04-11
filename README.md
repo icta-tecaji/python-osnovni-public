@@ -13,19 +13,21 @@ Predavatelja:
 
 ## Termini
 
+Po želji mamo lahko tud 2x na teden termine, da zaključmo pred poletnimi meseci.
+
 | Zaporedje | Datum | Dan | Tip |
 | :---: | :---: | :---: | :---: |
-| 1. | 15.2.2022 | Tor | Predavanje 1 |
-| 2. | 22.2.2022 | Tor | Predavanje 2 |
-| 3. | 1.3.2022 | Tor | Predavanje 3 |
-| 4. | 8.3.2022 | Tor | Predavanje 4 |
-| 5. | 15.3.2022 | Tor | Predavanje 5 |
-| 6. | 22.3.2022 | Tor | Predavanje 6 |
-| 7. | 29.3.2022 | Tor | Predavanje 7 |
-| / | ~~5.4.2022~~ | ~~Tor~~ | Odpade |
-| 8. | 12.4.2022 | Tor | Predavanje 8 |
-| 9. | 19.4.2022 | Tor | Predavanje 9 |
-| 10. | 26.4.2022 | Tor | Izpit |
+| 1. | 19.4.2023 | Sre | Predavanje 1 |
+| 2. | 26.4.2023 | Sre | Predavanje 2 | (prestavimo. 25.4. torek? 28.4. petek?)
+| 3. | 3.5.2023 | Sre | Predavanje 3 | (prestavimo? 5.5 petek?, 4.5. četrtek?)
+| 4. | 10.5.2023 | Sre | Predavanje 4 |
+| 5. | 17.5.2023 | Sre | Predavanje 5 |
+| 6. | 24.5.2023 | Sre | Predavanje 6 |
+| 7. | 31.5.2023 | Sre | Predavanje 7 |
+| / | ~~5.4.2023~~ | ~~Sre~~ | Odpade |
+| 8. | 7.6.2023 | Sre | Predavanje 8 |
+| 9. | 14.6.2023 | Sre | Predavanje 9 |
+| 10. | 21.6.2023 | Sre | Izpit |
 
 ## Domače naloge
 
