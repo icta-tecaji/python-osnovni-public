@@ -18,7 +18,7 @@ Po želji mamo lahko tud 2x na teden termine, da zaključmo pred poletnimi mesec
 | Zaporedje | Datum | Dan | Tip |
 | :---: | :---: | :---: | :---: |
 | 1. | 19.4.2023 | Sre | Predavanje 1 |
-| 2. | 26.4.2023 | Sre | Predavanje 2 (prestavimo. 25.4. torek? 28.4. petek?)| 
+| 2. | 26.4.2023 | Sre | Predavanje 2 (prestavimo. 25.4. torek? 27.4. četrtek? 28.4. petek?)| 
 | 3. | 3.5.2023 | Sre | Predavanje 3 (prestavimo? 5.5 petek?, 4.5. četrtek?)| 
 | 4. | 10.5.2023 | Sre | Predavanje 4 |
 | 5. | 17.5.2023 | Sre | Predavanje 5 |
@@ -34,10 +34,6 @@ Po želji mamo lahko tud 2x na teden termine, da zaključmo pred poletnimi mesec
 Vsak teden bomo imeli domače naloge iz tematik katere smo obravnavali na tečaju.
 
 Namen domačih nalog je, da sami doma poizkusate rešiti problem, nato jih pošljete in jih mi pogledamo in vam povemo kje točno delate napake. Domače naloge so tudi nam indikator kje se še kaj zatika in kaj bi bilo za ponoviti oziroma dodatno razložiti.
-
-Vsaka naloga bo na voljo v dveh formatih (Juyter Notebook - končnica .ipynb in osnovna Pytohn datoteka - končnica .py).
-
-Naloge najdete v mapi DN pod posameznim poglavjem.
 
 Naloge oddate preko email-a, kjer priložite datoteko z rešeno nalogo.
 
