@@ -24,7 +24,6 @@ Po želji mamo lahko tud 2x na teden termine, da zaključmo pred poletnimi mesec
 | 5. | 17.5.2023 | Sre | Predavanje 5 |
 | 6. | 24.5.2023 | Sre | Predavanje 6 |
 | 7. | 31.5.2023 | Sre | Predavanje 7 |
-| / | ~~5.4.2023~~ | ~~Sre~~ | Odpade |
 | 8. | 7.6.2023 | Sre | Predavanje 8 |
 | 9. | 14.6.2023 | Sre | Predavanje 9 |
 | 10. | 21.6.2023 | Sre | Izpit |
