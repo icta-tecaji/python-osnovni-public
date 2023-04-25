@@ -12,3 +12,7 @@ if True:
     print("If block 1")
     print("If block 2")
 print("Nadaljevanje programa")
+
+
+
+
