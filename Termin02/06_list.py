@@ -49,7 +49,7 @@ a = ["pingvin", "medved", "los", "volk"]
 # print(a)
 # del a[3]
 # print(a)
-# a.append([1,2,3,4])
+# a.append(2)
 # print(a)
 # a.extend([1,2,3])
 # print(a)
@@ -67,5 +67,5 @@ a = ["pingvin", "medved", "los", "volk"]
 # print(our_list[3][1][0])
 
 # Strings are Lists
-beseda = "lokomotiva"
-print(beseda[::2])
+# beseda = "lokomotiva"
+# print(beseda[::2])
