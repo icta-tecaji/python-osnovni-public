@@ -62,7 +62,7 @@ def funkcija(pricakovani_list):
 		current_list = pricakovani_list[key]
 		max_value = max(current_list)
 		max_values_list.append(max_value)
-
+ 
 	# for (key, item) in pricakovani_list.items():
 	# 	print(key,item)
 	
