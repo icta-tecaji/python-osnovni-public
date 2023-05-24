@@ -64,3 +64,12 @@ Notri boste našli naše zapiske in razlage snovi, navodila za vaje in rešitve,
 Dodatna gradiva lahko najdete na NetAcad.
 
 Vsi boste na emaile dobili povabilo k tečju. Predno lahko dostopate do gradiv morate izpolniti njihov "terms and services" in formo.
+
+# Dodatne vaje
+
+Tukaj imate še spletne strani z vajami in rešitvami:
+
+- https://pynative.com/python-basic-exercise-for-beginners/
+- https://www.w3resource.com/python-exercises/python-basic-exercises.php
+- https://www.practicepython.org/
+- https://exercism.org/tracks/python/exercises
