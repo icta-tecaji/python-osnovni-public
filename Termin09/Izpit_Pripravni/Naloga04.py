@@ -25,3 +25,15 @@
 # 05. Palačinko popecite na obeh straneh, da pridobi zlato-rjavo barvo.
 # 06. Palačinko namažite s čokolado ali pa marmelado in kislo smetano.
 # ```
+
+
+# Rešitev
+def funkcija04():
+    with open("input.txt") as f:
+        data = f.readlines()
+        data = sorted(data, key=lambda x: int(x[:2]))
+        # print(data)
+
+    with open("output.txt", "w") as f:
+        for line in data:
+            f.write(line)

@@ -1,7 +1,8 @@
 # Naloga 01
 # **Točka: / 5**
 
-# Napišite funkcijo `funkcija01`, ki kot prvi parameter sprejme premer krogle. Funkcija naj vrne izračunano prostornino krogle.
+# Napišite funkcijo `funkcija01`, ki kot prvi parameter sprejme premer krogle.
+# Funkcija naj vrne izračunano prostornino krogle.
 
 # "π" najdete v built-in knjižnjici **math**.
 
@@ -15,3 +16,9 @@
 # OUTPUT:
 # 14.1371
 # ```
+
+import math
+
+
+def funkcija01(d):
+    return math.pi * d**3 / 6
