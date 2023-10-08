@@ -8,7 +8,7 @@ Izpit: Zadnji teden
 Predavatelja:
 
 - **Nejc Kastelan** (<n.kaste@gmail.com kasneje: nejc.kastelan@ltfe.org>)
-- **Anže Glušič** (<gasper.azinovic@gmail.com kasneje gasper.azinovic@ltfe.org>)
+- **Gašper Azinovič** (<gasper.azinovic@gmail.com kasneje gasper.azinovic@ltfe.org>)
 
 1 termin poteka 4 ure, 16:00 - 20:00. Vmes bomo imel nekaj pavzic.
 
