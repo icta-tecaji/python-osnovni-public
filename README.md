@@ -7,27 +7,27 @@ Izpit: Zadnji teden
 
 Predavatelja:
 
-- **Gregor Balkovec** (<gregor.balkovec@ltfe.org>)
-- **Anže Glušič** (<anze.glusic@ltfe.org>)
+- **Nejc Kastelan** (<n.kaste@gmail.com kasneje: nejc.kastelan@ltfe.org>)
+- **Anže Glušič** (<gasper.azinovic@gmail.com kasneje gasper.azinovic@ltfe.org>)
 
 1 termin poteka 4 ure, 16:00 - 20:00. Vmes bomo imel nekaj pavzic.
 
 ## Termini
 
-Po želji mamo lahko tud 2x na teden termine, da zaključmo pred poletnimi meseci.
+Po želji mamo lahko tud 2x na teden termine, da zaključmo pred novim letom.
 
 | Zaporedje |   Datum   | Dan |     Tip      |
 | :-------: | :-------: | :-: | :----------: |
-|    1.     | 19.4.2023 | Sre | Predavanje 1 |
-|    2.     | 25.4.2023 | Tor | Predavanje 2 |
-|    3.     | 4.5.2023  | Čet | Predavanje 3 |
-|    4.     | 10.5.2023 | Sre | Predavanje 4 |
-|    5.     | 17.5.2023 | Sre | Predavanje 5 |
-|    6.     | 24.5.2023 | Sre | Predavanje 6 |
-|    7.     | 31.5.2023 | Sre | Predavanje 7 |
-|    8.     | 7.6.2023  | Sre | Predavanje 8 |
-|    9.     | 14.6.2023 | Sre | Predavanje 9 |
-|    10.    | 21.6.2023 | Sre |    Izpit     |
+|    1.     | 10.10.2023| Tor | Predavanje 1 |
+|    2.     | 17.10.2023| Tor | Predavanje 2 |
+|    3.     | 24.10.2023| Tor | Predavanje 3 |
+|    4.?    | 2.11.2023 | Čet | Predavanje 4 |
+|    5.     | 7.11.2023 | Tor | Predavanje 5 |
+|    6.     | 14.11.2023| Tor | Predavanje 6 |
+|    7.     | 21.11.2023| Tor | Predavanje 7 |
+|    8.     | 28.11.2023| Tor | Predavanje 8 |
+|    9.     | 5.12.2023 | Tor | Predavanje 9 |
+|    10.    | 12.12.2023| Tor |    Izpit     |
 
 ## Domače naloge
 
@@ -41,7 +41,7 @@ Zadeva email-a: \[DN-Python\] \<Termin\>\_Ime_Priimek
 
 > Primer: \[DN-Python\] Termin_01_Luka_Novak
 
-Email pošljete na <gregor.balkovec@ltfe.org> in <anze.glusic@ltfe.org>.
+Email pošljete na <nejc.kastelan@ltfe.org> in <gasper.azinovic@ltfe.org>.
 
 ## Izpit
 
