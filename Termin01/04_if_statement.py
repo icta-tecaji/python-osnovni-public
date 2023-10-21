@@ -27,11 +27,13 @@ else:
 # if <pogoj>:
     # <koda, ki se izvede, če je pogoj izpolnjen>
 
-if x == 10:
-    y= 3
-    print(y)
-if x == 10:
-    y=6
-    print(y)
-if x ==3: 
-    print(y)
+#Primer, ko se izvede več if stavkov, ker imata enak pogoj
+# x=10
+# if x == 10:
+#     y= 3
+#     print(y)
+# if x == 10:
+#     y=6
+#     print(y)
+# if x ==3: 
+#     print(y)

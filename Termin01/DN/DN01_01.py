@@ -12,6 +12,7 @@ Primeri:
 Input:
 5
 
+
 Output:
 <class 'str'>
 5
@@ -24,3 +25,14 @@ Output:
 """
 
 # rešitevs
+n=input('Prosim vnesi neko celo število:')
+print(n)
+print(type(n))
+
+n=float(n)
+print(n)
+print(type(n))
+
+m=int(n)
+print(m)
+print(type(m))
