@@ -1,5 +1,0 @@
-my first file
-This file
-
-contains three lines
-We are adding another line.And another one
