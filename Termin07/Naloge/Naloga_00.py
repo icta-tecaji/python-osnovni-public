@@ -20,3 +20,21 @@
 # Vnesi prvo besedo: 1234
 # Vnesi drugo besedo: test
 # Vnešene so bile samo številke.
+
+def is_anagram():
+    beseda1 = input("Vnesi prvo besedo: ")
+    beseda2 = input("Vnesi drugo besedo: ")
+    if beseda1.isnumeric() or beseda2.isnumeric():
+        raise ValueError("Vnešene so bile samo številke.")
+    
+    return sorted(beseda1) == sorted(beseda2)
+
+for i in range(3):
+    try:
+        if is_anagram():
+            print("Besedi sta ANAGRAMA")
+        else:
+            print("Besedi NISTA anagrama.")
+    except ValueError as e:
+        print(e)
+    print()

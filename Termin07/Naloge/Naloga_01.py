@@ -12,13 +12,24 @@ def premakni():
 
 
 def narisi_kvadrat(dolzina_stranice):
-    #koda za risanje kvadrata
-    pass
+    for i in range(4):
+        copic.forward(dolzina_stranice)
+        copic.right(90)
 
 def narisi_trikotnik(dolzina_stranice):
-    #koda za risanje trikotnika
-    pass
+    for i in range(3):
+        copic.forward(dolzina_stranice)
+        copic.left(120)
 
 def draw_circle():
-    #koda za risanje kroga
-    pass
+    for i in range(360):
+        copic.forward(1)
+        copic.right(1)
+
+narisi_kvadrat(100)
+premakni()
+narisi_trikotnik(100)
+premakni()
+draw_circle()
+
+platno.exitonclick()
