@@ -13,3 +13,12 @@
 
 # OUTPUT:
 # ['Jan', 'Tine', 'Anja', 'Mirko']
+
+# REŠITEV
+def funkcija02(l):
+    passed_names = []
+    for ocena, ime in l:
+        #print(ocena, ime)
+        if ocena >= 50:
+            passed_names.append(ime)
+    return passed_names

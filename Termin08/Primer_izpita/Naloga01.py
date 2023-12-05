@@ -18,7 +18,13 @@
 # 56.54866776
 
 # REŠITEV:
+# Rešitev 
+import math
 
+def funkcija01(visina,radij):
+    return math.pi*(radij**2)*visina
+
+funkcija01(2, 3)
 
 # ======================================
 # ======================================

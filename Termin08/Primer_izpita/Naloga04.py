@@ -42,3 +42,18 @@
 # It don't matter, he's dope, he knows that, but he's broke
 # He won't have it, he knows his whole back's to these ropes
 # He's so stagnant, he knows, when he goes back to this mobile home, that's when it's
+
+
+# Rešitev
+def funkcija04():
+    with open("input_file.txt") as f:
+        data = f.readlines()
+        data = [line for line in data]
+        data = [(len(line), line) for line in data]
+        data.sort()
+        
+    with open("output_file.txt", "w") as f:
+        for i, line in data:
+            f.write(line)
+        
+funkcija04()

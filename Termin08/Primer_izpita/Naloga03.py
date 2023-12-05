@@ -80,3 +80,18 @@
 #     },
     
 # }
+
+
+# Rešitev
+def funkcija03(data):
+    best_perfomer_name = ""
+    best_result = 0
+    for coin, values in data["day_2"].items():
+        percentage = (data["day_2"][coin]["eur"] - data["day_1"][coin]["eur"])/data["day_1"][coin]["eur"]
+        print(f"{coin} se je spremenil za {percentage:.2f} %")
+        if percentage > best_result:
+            best_result = percentage
+            best_performer_name = coin
+    return best_performer_name
+
+funkcija03(data)
