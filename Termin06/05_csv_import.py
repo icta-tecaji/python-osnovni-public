@@ -12,3 +12,5 @@ with open("Titanic.csv","r") as f:
 
 for line in data[:5]: #Preberemo prvih 5 vrstic
     print(line)
+
+
