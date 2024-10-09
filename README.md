@@ -2,32 +2,30 @@
 
 ## Osnovne informacije
 
-Trajanje: 10 tednov, 1x na tedn <br>
+Trajanje: 10 tednov, 1x na teden <br>
 Izpit: Zadnji teden
 
 Predavatelja:
 
-- **Nejc Kastelan** (<n.kaste@gmail.com kasneje: nejc.kastelan@ltfe.org>)
-- **Gašper Azinovič** (<gasper.azinovic@gmail.com kasneje gasper.azinovic@ltfe.org>)
+- **Leon Štefanič Južnič** (`Leon.Stefanic-Juznic@fe.uni-lj.si`)
+- **Anže Glušič** (`anze.glusic@ltfe.org`)
 
-1 termin poteka 4 ure, 16:00 - 20:00. Vmes bomo imel nekaj pavzic.
+1 termin poteka 4 ure, 16:00 - 20:00. Vmes bomo imeli nekaj odmorov.
 
 ## Termini
 
-Po želji mamo lahko tud 2x na teden termine, da zaključmo pred novim letom.
-
 | Zaporedje |   Datum   | Dan |     Tip      |
 | :-------: | :-------: | :-: | :----------: |
-|    1.     | 10.10.2023| Tor | Predavanje 1 |
-|    2.     | 17.10.2023| Tor | Predavanje 2 |
-|    3.     | 24.10.2023| Tor | Predavanje 3 |
-|    4.?    | 2.11.2023 | Čet | Predavanje 4 |
-|    5.     | 7.11.2023 | Tor | Predavanje 5 |
-|    6.     | 14.11.2023| Tor | Predavanje 6 |
-|    7.     | 21.11.2023| Tor | Predavanje 7 |
-|    8.     | 28.11.2023| Tor | Predavanje 8 |
-|    9.     | 5.12.2023 | Tor | Predavanje 9 |
-|    10.    | 12.12.2023| Tor |    Izpit     |
+|    1.     | 14.10.2024| Pon | Predavanje 1 |
+|    2.     | 21.10.2024| Pon | Predavanje 2 |
+|    3.     | 28.10.2024| Pon | Predavanje 3 |
+|    4.     | 4.11.2024 | Pon | Predavanje 4 |
+|    5.     | 11.11.2024 | Pon | Predavanje 5 |
+|    6.     | 18.11.2024| Pon | Predavanje 6 |
+|    7.     | 25.11.2024| Pon | Predavanje 7 |
+|    8.     | 2.12.2024| Pon | Predavanje 8 |
+|    9.     | 9.12.2024 | Pon | Predavanje 9 |
+|    10.    | 16.12.2024| Pon |    Izpit     |
 
 ## Domače naloge
 
@@ -41,7 +39,7 @@ Zadeva email-a: \[DN-Python\] \<Termin\>\_Ime_Priimek
 
 > Primer: \[DN-Python\] Termin_01_Luka_Novak
 
-Email pošljete na <nejc.kastelan@ltfe.org> in <gasper.azinovic@ltfe.org>.
+Email pošljete na <Leon.Stefanic-Juznic@fe.uni-lj.si> in <anze.glusic@ltfe.org>.
 
 ## Izpit
 
@@ -58,12 +56,6 @@ Zapiski predavanj bodo dostopni na GitHub-u.
 ## GitHub
 
 Notri boste našli naše zapiske in razlage snovi, navodila za vaje in rešitve, domača naloga itd.
-
-## NetAcad
-
-Dodatna gradiva lahko najdete na NetAcad.
-
-Vsi boste na emaile dobili povabilo k tečju. Predno lahko dostopate do gradiv morate izpolniti njihov "terms and services" in formo.
 
 # Dodatne vaje
 
