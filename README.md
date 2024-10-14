@@ -9,7 +9,6 @@ Predavatelji:
 
 - **Leon Štefanič Južnič** (`Leon.Stefanic-Juznic@fe.uni-lj.si`)
 - **Anže Glušič** (`anze.glusic@ltfe.org`)
-- **Luka Levac** (`???`)
 
 1 termin poteka 4 ure, 16:00 - 20:00. Vmes bomo imeli nekaj odmorov.
 
