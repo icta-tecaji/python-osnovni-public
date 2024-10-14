@@ -5,7 +5,7 @@
 Trajanje: 10 tednov, 1x na teden <br>
 Izpit: Zadnji teden
 
-Predavatelja:
+Predavatelji:
 
 - **Leon Štefanič Južnič** (`Leon.Stefanic-Juznic@fe.uni-lj.si`)
 - **Anže Glušič** (`anze.glusic@ltfe.org`)
