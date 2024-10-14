@@ -6,24 +6,20 @@
   "editor.defaultFormatter": "charliermarsh.ruff",
   "editor.tabSize": 4,
   "editor.codeActionsOnSave": {
-      "source.organizeImports.ruff": "explicit",
-      "source.addMissingImports": "explicit",
-      "source.formatDocument.ruff": "explicit",
-      "source.fixAll.ruff": "explicit"
+    "source.organizeImports.ruff": "explicit",
+    "source.addMissingImports": "explicit",
+    "source.formatDocument.ruff": "explicit",
+    "source.fixAll.ruff": "explicit"
   },
   "ruff.importStrategy": "fromEnvironment",
   "ruff.lint.args": [
-      "--select=ALL",
-      "--line-length=180",
-      "--ignore=N815,S105,D104",
-      "--extend-exclude=**/tests/**",
+    "--select=ALL",
+    "--line-length=180",
+    "--ignore=N815,S105,D104",
+    "--extend-exclude=**/tests/**"
   ],
-  "ruff.format.args": [
-      "--line-length=135"
-  ],
-  "python.testing.pytestArgs": [
-      "tests"
-  ],
+  "ruff.format.args": ["--line-length=135"],
+  "python.testing.pytestArgs": ["tests"],
   "python.testing.unittestEnabled": false,
-  "python.testing.pytestEnabled": true,
+  "python.testing.pytestEnabled": true
 }
