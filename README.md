@@ -65,3 +65,12 @@ Tukaj imate še spletne strani z vajami in rešitvami:
 - https://www.w3resource.com/python-exercises/python-basic-exercises.php
 - https://www.practicepython.org/
 - https://exercism.org/tracks/python/exercises
+
+
+## Vislice projekt
+- Viseči okostnjak v ascii znakih
+- Dodat celotno besedo v primeru da vemo rešitev
+- Dodajanje besed iz interneta
+- Pisanje rezultatov v datoteko
+- Dodajanje funkciji
+- Error handling
