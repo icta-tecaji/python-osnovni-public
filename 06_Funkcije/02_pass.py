@@ -2,15 +2,15 @@
 
 
 # Tukaj hočem nekaj izvesti
-if 1>2:
-	pass
+if 1 > 2:
+    pass
 
 if True:
-	pass
+    pass
+
 
 def fun():
-	pass
-
+    pass
 
 
 print(123)
