@@ -14,10 +14,10 @@
 # pozdrav("gospod","Anže","Glušič")
 # pozdrav("gospod",priimek="Novak")
 
-# Naloga 
+# Naloga
 
 # Napišite funkcijo, ki izpiše prvih N največjih vrednosti v podanem listu.
-# Funkcija naj ima dva parametra. 
+# Funkcija naj ima dva parametra.
 # Prvi parameter je list, znotraj katerega bomo iskali največje vrednosti.
 # Drugi parameter število, ki nam pove koliko prvih največjih števil naj izpišemo.
 # Če vrednost ni podana, naj se izpiše prvih 5 največjih števil.
@@ -29,23 +29,22 @@
 # print(x)
 
 
+def vaja(l, N=5):
+    for i in range(N):
+        max_number = max(l)
+        l.remove(max_number)
+        print(max_number)
 
-def vaja(l,N=5):
-	for i in range(N):
-		max_number = max(l)
-		l.remove(max_number)
-		print(max_number)
+    # l = sorted(l,reverse=True)
+    # print(l[:N])
 
-	# l = sorted(l,reverse=True)
-	# print(l[:N])
-
-	# max
-	# remove
+    # max
+    # remove
 
 
-vaja([1,5,7,-2,3,8,2,-5,12,-22])
+vaja([1, 5, 7, -2, 3, 8, 2, -5, 12, -22])
 print()
-vaja([1,5,7,-2,3,8,2-5,12,-22], 3)
+vaja([1, 5, 7, -2, 3, 8, 2 - 5, 12, -22], 3)
 
 
 # Primeri:
@@ -67,4 +66,3 @@ vaja([1,5,7,-2,3,8,2-5,12,-22], 3)
 # 12
 # 8
 # 7
-
