@@ -1,4 +1,4 @@
-"""V skripti je malo mešanja slovenščine in angleščine. Načeloma je dobra praksa, da se uporablja
+"""V tej skripti je malo mešanja slovenščine in angleščine. Načeloma je dobra praksa, da se uporablja
 angleščino.
 """
 
