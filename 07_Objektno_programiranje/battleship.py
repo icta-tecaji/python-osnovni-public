@@ -60,10 +60,10 @@ def display_grid(grid: list, ships: list) -> None:
         None
 
     """
-    for ship in ships:
-        for i in range(ship["length"]):
-            if ship["orientation"] == "H":
-                grid[ship["row"]][ship["col"] + i] = "S"
+    for ship in ships:  # Loop through the list of ships
+        for i in range(ship["length"]):  # Loop through the length of the ship (E.g. 2 for Patrol Boat)
+            if ship["orientation"] == "H":  # If the ship is oriented horizontally
+                grid[ship["row"]][ship["col"] + i] = "S"  # Place the ship on the grid
             elif ship["orientation"] == "V":
                 grid[ship["row"] + i][ship["col"]] = "S"
 
