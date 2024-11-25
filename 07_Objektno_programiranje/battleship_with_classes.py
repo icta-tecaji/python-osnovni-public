@@ -21,16 +21,6 @@
 # ======================================================================================
 # ======================================================================================
 
-# NALOGA
-
-# Dopolnimo naš program tako, da mu dodamo class `Ship`. Instanca razreda naj ima sledeče atribute:
-
-# name - ime ladje
-# length - dolžina ladje
-# row , col - začetne koordinate ladje
-# orientation - ali je ladja obrnjena horizontalno ali vertikalno
-# place_ship - metoda, s katero nastavimo row, col, orientation ladje
-
 
 class Ship:
     def __init__(self, name, length):
@@ -39,6 +29,8 @@ class Ship:
         self.row = None
         self.col = None
         self.orientation = None
+        self.damage = 0
+        self.destroyed = False
 
     def place_ship(self):
         print(f"Placing ship {self.name} ({self.length})")
@@ -47,6 +39,37 @@ class Ship:
         self.col = int(input("Vnesi stolpec: "))
         self.orientation = input("Vnesi orientacijo (V/H): ")
 
+    def check_if_hit(self, row, col):
+        ship_coordiantes = []
+        for i in range(self.length):
+            if self.orientation == "H":
+                ship_coordiantes.append((self.row, self.col + i))
+            elif self.orientation == "V":
+                ship_coordiantes.append((self.row + i, self.col))
+
+        # preverimo e je (row, col) znotraj koordiante ladje
+        if (row, col) in ship_coordiantes:
+            # Če je: updateamo ladjo +1 damage + vrnemo True
+            self.damage += 1
+            self.check_if_destroyed()
+            return True
+        # Če ni: vrnemo False
+        return False
+
+    def check_if_destroyed(self):
+        if self.damage >= self.length:
+            self.destroyed = True
+
+
+class Submarine(Ship):
+    def move(self):
+        if self.orientation == "H":
+            # <True> if <condition> else <False>
+            self.col = 0 if (self.col + self.length) >= 10 else self.col + 1
+        elif self.orientation == "V":
+            # <True> if <condition> else <False>
+            self.row = 0 if (self.row + self.length) >= 10 else self.row + 1
+
 
 # ======================================================================================
 # ======================================================================================
@@ -55,48 +78,6 @@ class Ship:
 # ======================================================================================
 # ======================================================================================
 # ======================================================================================
-
-# grid = create_grid()
-
-# display_grid(grid, [])
-# player1_ships = [
-#     {"name": "Patrol Boat", "length": 2, "row": None, "col": None, "orientation": None},
-#     {"name": "Submarine", "length": 3, "row": None, "col": None, "orientation": None},
-#     {"name": "Destroyer", "length": 3, "row": None, "col": None, "orientation": None},
-#     {"name": "Battleship", "length": 4, "row": None, "col": None, "orientation": None},
-#     {"name": "Carrier", "length": 5, "row": None, "col": None, "orientation": None},
-# ]
-
-# player1_ships: list[Ship] = []
-# player1_ships = []
-# player1_ships.append(Ship("Patrol Boat", 2))
-# player1_ships.append(Ship("Submarine", 3))
-# player1_ships.append(Ship("Destroyer", 3))
-# player1_ships.append(Ship("Battleship", 4))
-# player1_ships.append(Ship("Carrier", 5))
-
-# for ship in player1_ships:
-#     ship.place_ship()
-
-#     display_grid(grid, player1_ships)
-#     print()
-
-# display_grid(grid)
-
-
-# NALOGA
-
-# Dopolnimo naš program tako, da mu dodamo class `Player`.
-
-# Razred naj v sebi hrani:
-
-# name - ime igralca
-# grid - igralna plošča, na kateri bomo spremljali poteze katere je igralec naredil
-# ships - list vseh igralčevih ladji
-# create_grid - metoda, ki ustvari 2D list, ki predstavlja prazno igralno ploščo
-# display_grid - metoda, ki izpiše igralčevo igralno ploščo. Na tej plošči bomo spremljali njegove poteze
-# place_ship - metoda, ki prejme eno Ladjo in jo "postavi" na igralno ploščo
-# display_my_ships - metoda, ki pokaže igralno ploščo in kje ima igralec postavljene ladje
 
 
 class Player:
@@ -105,7 +86,7 @@ class Player:
         self.grid = self.create_grid()
         self.ships = []
         self.ships.append(Ship("Patrol Boat", 2))
-        # self.ships.append(Ship("Submarine", 3))
+        self.ships.append(Submarine("Submarine", 3))
         # self.ships.append(Ship("Destroyer", 3))
         # self.ships.append(Ship("Battleship", 4))
         # self.ships.append(Ship("Carrier", 5))
@@ -125,6 +106,7 @@ class Player:
         return grid
 
     def display_grid(self):
+        print(f"Displaying grid of player {self.name}")
         print("R/C 0  1  2  3  4  5  6  7  8  9")
         for i, row in enumerate(self.grid):
             print(i, end="   ")
@@ -134,13 +116,8 @@ class Player:
 
     def place_ship(self, ship):
         print(f"Place a ship for player {self.name}")
-        self.display_grid()
+        self.display_my_ships()
         ship.place_ship()
-        for i in range(ship.length):
-            if ship.orientation == "H":
-                self.grid[ship.row][ship.col + i] = "S"
-            elif ship.orientation == "V":
-                self.grid[ship.row + i][ship.col] = "S"
 
     def display_my_ships(self):
         # This is used for debugging
@@ -151,15 +128,41 @@ class Player:
         for ship in self.ships:
             for i in range(ship.length):
                 if ship.orientation == "H":
-                    self.grid[ship.row][ship.col + i] = "S"
+                    grid[ship.row][ship.col + i] = "S"
                 elif ship.orientation == "V":
-                    self.grid[ship.row + i][ship.col] = "S"
+                    grid[ship.row + i][ship.col] = "S"
         print("R/C 0  1  2  3  4  5  6  7  8  9")
-        for i, row in enumerate(self.grid):
+        for i, row in enumerate(grid):
             print(i, end="   ")
             for col in row:
                 print(col, end="  ")
             print()
+
+    def make_move(self, other_player):
+        # inputi za kam želi vrči bombo
+        print(f"{self.name} making a move.")
+        row = int(input("Row:"))
+        col = int(input("Col:"))
+        # preverimo ali je zadetek
+        for ship in other_player.ships:
+            # pogledamo če je zadetek
+            if ship.check_if_hit(row, col):
+                # Če je: shranimo v svoj grid "H"
+                self.grid[row][col] = "H"
+                print("HIT!")
+            else:
+                # Če ni: shranimo v svoj grid "M"
+                self.grid[row][col] = "M"
+                print("Miss.")
+        for ship in self.ships:
+            if ship.name == "Submarine":
+                ship.move()
+
+    def check_if_loss(self):
+        for ship in self.ships:
+            if not ship.destroyed:
+                return False
+        return True
 
 
 player1 = Player("Gregor")
@@ -173,3 +176,28 @@ print("=========")
 player2.display_my_ships()
 print("=========")
 player2.display_grid()
+
+
+print("*" * 10)
+print("*" * 10)
+print("*" * 10)
+print("*" * 10)
+
+
+for _ in range(3):
+    player1.make_move(player2)
+    player1.display_grid()
+    player1.display_my_ships()
+
+    if player2.check_if_loss():
+        # player1 je zmagovalec
+        print(f"Player {player1.name} WON!")
+        break
+
+    player2.make_move(player1)
+    player2.display_grid()
+
+    if player1.check_if_loss():
+        # player2 je zmagovalec
+        print(f"Player {player2.name} WON!")
+        break
