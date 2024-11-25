@@ -1,30 +1,43 @@
+# Goal is to create a grid for a Battleship game and place ships on it.
+# The grid should be a 10x10 2D list where each cell is initialized with "~".
+# Example of a grid with ships placed on it:
 # R/C 0  1  2  3  4  5  6  7  8  9
 # 0   .  .  .  .  .  .  .  .  .  .
 # 1   .  .  .  .  .  .  .  .  .  .
-# 2   .  .  .  .  .  .  .  .  .  .
-# 3   .  .  .  .  .  .  .  .  .  .
-# 4   .  .  S  '  .  .  .  .  .  .
+# 2   .  .  .  .  .  .  .  S  .  .
+# 3   .  .  .  .  .  .  .  S  .  .
+# 4   .  .  S  S  .  .  .  S  .  .
 # 5   .  .  .  .  .  .  .  .  .  .
 # 6   .  .  .  .  .  .  .  .  .  .
-# 7   .  .    .  .  .  .  .  .  .
+# 7   .  .  .  .  .  .  .  .  .  .
 # 8   .  .  .  .  .  .  .  .  .  .
 # 9   .  .  .  .  .  .  .  .  .  .
 
-# ~ - voda
-#  - ladja (ship)
-# H - zadetek (hit)
-# M - mimo (miss)
+# Legend:
+# ~ - water
+# S - ship
+# H - hit
+# M - miss
 # ```
 
 
-def create_grid(n=10):
+def create_grid(n: int = 10) -> list:
+    """Create a grid for the Battleship game.
+
+    Args:
+        n (int, optional): The size of the grid (number of rows and columns). Defaults to 10.
+
+    Returns:
+        list: A 2D list representing the grid, where each cell is initialized with "~".
+
+    """
     grid = []
-    # Prvi for loop za vrstice
+    # First loop for grid ROWS
     for row in range(n):
-        empty_row = []
-        # Drugi for loop za stolpce
+        empty_row = []  # We create an empty row
+        # Second loop for grid COLUMNS
         for col in range(n):
-            empty_row.append("~")
+            empty_row.append("~")  # We add a cell to the row each iteration
         grid.append(empty_row)
     return grid
 
@@ -32,11 +45,25 @@ def create_grid(n=10):
 grid = create_grid()
 
 
-def display_grid(grid, ships):
-    for ship in ships:
-        for i in range(ship["length"]):
-            if ship["orientation"] == "H":
-                grid[ship["row"]][ship["col"] + i] = "S"
+def display_grid(grid: list, ships: list) -> None:
+    """Display the battleship grid with ships placed on it.
+
+    Args:
+        grid (list of list of str): A 2D list representing the grid where each cell is a string.
+        ships (list of dict): A list of dictionaries where each dictionary represents a ship with the following keys:
+            - "row" (int): The starting row of the ship.
+            - "col" (int): The starting column of the ship.
+            - "length" (int): The length of the ship.
+            - "orientation" (str): The orientation of the ship, either "H" for horizontal or "V" for vertical.
+
+    Returns:
+        None
+
+    """
+    for ship in ships:  # Loop through the list of ships
+        for i in range(ship["length"]):  # Loop through the length of the ship (E.g. 2 for Patrol Boat)
+            if ship["orientation"] == "H":  # If the ship is oriented horizontally
+                grid[ship["row"]][ship["col"] + i] = "S"  # Place the ship on the grid
             elif ship["orientation"] == "V":
                 grid[ship["row"] + i][ship["col"]] = "S"
 
@@ -68,6 +95,10 @@ def place_ship(ship: dict) -> dict:
     return ship
 
 
+# List of dictionaries representing the ships
+# Each ship has the same keys.
+# The values for "row", "col", and "orientation" are set to None
+# This is a better practice than writing 0 for example, because 0 is a valid value for the row and column
 player1_ships = [
     {"name": "Patrol Boat", "length": 2, "row": None, "col": None, "orientation": None},
     {"name": "Submarine", "length": 3, "row": None, "col": None, "orientation": None},
@@ -85,7 +116,7 @@ for i, ship in enumerate(player1_ships):
 # display_grid(grid)
 
 
-# Dopolnite program tako, da bo igralec postavil vse svoje ladjice.
+# Fill in the program and place these ships on the grid:
 #     Carrier, dolžina 5
 #     Battleship, dolžina 4
 #     Destroyer, dolžina 3
