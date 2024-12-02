@@ -36,3 +36,8 @@ print(polica.kaj_je_na_polici())
 
 print(polica.uredi_knjige(False))
 # ==> ['Tintin', 'The Witcher', 'SSKJ', 'Romeo in Julija', 'Harry Potter', 'Hamlet', 'Dune']
+
+
+# PRIMERI REŠITVE (lahko da so kakšne napake, smo pogledali kako bi ocenili poslane rešitve):
+# naloga_participant_1.py
+# naloga_participant_2.py
