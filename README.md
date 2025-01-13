@@ -2,31 +2,33 @@
 
 ## Osnovne informacije
 
-Trajanje: 10 tednov, 1x na teden <br>
-Izpit: Zadnji teden
+Trajanje: 3 tedne, 2x na teden <br>
+<!--Izpit: Zadnji teden-->
 
 Predavatelji:
 
 - **Leon Štefanič Južnič** (`Leon.Stefanic-Juznic@fe.uni-lj.si`)
 - **Anže Glušič** (`anze.glusic@ltfe.org`)
 
-1 termin poteka 4 ure, 16:00 - 20:00. Vmes bomo imeli nekaj odmorov.
+1 termin poteka približno 7 ur, 8:30 - 15:00.
+
+Vmes bomo imeli nekaj odmorov:
+- 10:00 (15 min)
+- 12:00 (60 min)
 
 ## Termini
 
 | Zaporedje |   Datum   | Dan |     Tip      |
 | :-------: | :-------: | :-: | :----------: |
-|    1.     | 14.10.2024| Pon | Predavanje 1 |
-|    2.     | 21.10.2024| Pon | Predavanje 2 |
-|    3.     | 28.10.2024| Pon | Predavanje 3 |
-|    4.     | 4.11.2024 | Pon | Predavanje 4 |
-|    5.     | 11.11.2024 | Pon | Predavanje 5 |
-|    6.     | 18.11.2024| Pon | Predavanje 6 |
-|    7.     | 25.11.2024| Pon | Predavanje 7 |
-|    8.     | 2.12.2024| Pon | Predavanje 8 |
-|    9.     | 9.12.2024 | Pon | Predavanje 9 |
-|    10.    | 16.12.2024| Pon |    Izpit     |
+|    1.     | 6.1.2025  | Pon | Predavanje 1 |
+|    2.     | 9.1.2025  | Čet | Predavanje 2 |
+|    3.     | 13.1.2025 | Pon | Predavanje 3 |
+|    4.     | 16.1.2025 | Čet | Predavanje 4 |
+|    5.     | 20.1.2025 | Pon | Predavanje 5 |
+|    6.     | 23.1.2025 | Čet | Predavanje 6 |
+<!--|    10.    | 16.12.2024| Pon |    Izpit     |-->
 
+<!--
 ## Domače naloge
 
 Vsak teden bomo imeli domače naloge iz tematik katere smo obravnavali na tečaju.
@@ -40,7 +42,9 @@ Zadeva email-a: \[DN-Python\] \<Termin\>\_Ime_Priimek
 > Primer: \[DN-Python\] Termin_01_Luka_Novak
 
 Email pošljete na <Leon.Stefanic-Juznic@fe.uni-lj.si> in <anze.glusic@ltfe.org>.
+-->
 
+<!--
 ## Izpit
 
 Izpit bo potekal zadnji termin. Časa boste imeli vse 4 ure, vendar povprečno participanti potrebujejo približno 2 uri.
@@ -48,6 +52,7 @@ Izpit bo potekal zadnji termin. Časa boste imeli vse 4 ure, vendar povprečno p
 Na izpitu vam je dovoljeno vse - internet, lastni zapiski, naši zapiski, itd. Le komunikacija (pogovarjanje, ...) ni odvoljena.
 
 Za uspešno opravljen izpit boste potrebovali vsaj 80% vseh točk. Po koncu tečaja dobite certifikat.
+-->
 
 ## Zapiski predavanj
 
@@ -56,6 +61,8 @@ Zapiski predavanj bodo dostopni na GitHub-u.
 ## GitHub
 
 Notri boste našli naše zapiske in razlage snovi, navodila za vaje in rešitve, domača naloga itd.
+
+Napredni zapiski in snov: https://github.com/icta-tecaji/icta-python-osnovni-public
 
 # Dodatne vaje
 
@@ -66,7 +73,7 @@ Tukaj imate še spletne strani z vajami in rešitvami:
 - https://www.practicepython.org/
 - https://exercism.org/tracks/python/exercises
 
-
+<!--
 ## Vislice projekt
 - Viseči okostnjak v ascii znakih
 - Dodat celotno besedo v primeru da vemo rešitev
@@ -74,3 +81,4 @@ Tukaj imate še spletne strani z vajami in rešitvami:
 - Pisanje rezultatov v datoteko
 - Dodajanje funkciji
 - Error handling
+-->
