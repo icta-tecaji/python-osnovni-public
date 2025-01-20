@@ -1,3 +1,9 @@
 # TODOs
 - pickle
 - debug mode (VS code) za predstavitev kako je shranjeno v pythonu
+- user interface
+
+
+
+DONE:
+- logiranje oz. parsanje podatkov iz datotek (log datotek)

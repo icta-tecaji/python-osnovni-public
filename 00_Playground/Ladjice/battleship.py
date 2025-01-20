@@ -46,29 +46,7 @@ class Ship:
 # ---------------------------------------------------------------------------------------------------
 
 
-class Submarine:
-    def __init__(self, name, length):
-        self.name = name
-        self.length = length
-        self.row = None
-        self.col = None
-        self.orientation = None
-        self.damage = 0
-
-    def check_if_hit(self, row, col):
-        ship_locations = []  # (row,col) in [(1,1), (1,2), (1,3)]
-        for i in range(self.length):  # [0,1]
-            if self.orientation.lower() == "h":
-                ship_locations.append((self.row, self.col + i))
-            if self.orientation.lower() == "v":
-                ship_locations.append((self.row + 1, self.col))
-        if (row, col) in ship_locations:
-            self.damage += 1
-            if self.damage >= self.length:
-                print(f"Ship {self.name} is destroyed!")
-            return True
-        return False
-
+class Submarine(Ship):
     def move(self):
         if self.orientation.lower() == "h":
             if (self.col + self.length + 1) > 10:
@@ -90,11 +68,11 @@ class Player:
         self.name = name
         self.grid = self.create_grid()  # where i already droped bombs
         self.ships = [
-            # Ship("Carrier",5),
-            # Ship("Battleship",4),
-            # Ship("Destroyer",3),
-            # Ship("Submarine",3),
-            # Ship("Petrol", 2),
+            Ship("Carrier", 5),
+            Ship("Battleship", 4),
+            Ship("Destroyer", 3),
+            Ship("Submarine", 3),
+            Ship("Petrol", 2),
             Submarine("Submarine", 3),
         ]
 
@@ -151,7 +129,9 @@ class Player:
             else:
                 print("Miss.")
                 self.grid[row][col] = "M"
-            ship.move()
+        for ship in player2.ships:
+            if isinstance(ship, Submarine):
+                ship.move()
 
     def check_if_lost(self):
         for ship in self.ships:
@@ -161,35 +141,35 @@ class Player:
 
 
 # ---------------------------------------------------------------------------------------------------
-
-# SET UP player1
-player1 = Player("Gregor")
-print("============")
-player1.display_my_ships()
-print("============")
-player1.display_grid()
-
-print()
-
-# SET UP player2
-player2 = Player("Anže")
-print("============")
-player2.display_my_ships()
-print("============")
-player2.display_grid()
-
-# ---------------------------------------------------------------------------------------------------
-
-for _ in range(10):
-    player1.make_move(player2)
+if __name__ == "__main__":
+    # SET UP player1
+    player1 = Player("Gregor")
+    print("============")
+    player1.display_my_ships()
+    print("============")
     player1.display_grid()
-    player2.display_my_ships()
-    # if player2.check_if_lost():
-    #     print("Player1 je zmagal!")
-    #     break
 
-    # player2.make_move(player1)
-    # player2.display_grid()
-    # if player1.check_if_lost():
-    #     print("Player2 je zmagal!")
-    #     break
+    print()
+
+    # SET UP player2
+    player2 = Player("Anže")
+    print("============")
+    player2.display_my_ships()
+    print("============")
+    player2.display_grid()
+
+    # ---------------------------------------------------------------------------------------------------
+
+    for _ in range(10):
+        player1.make_move(player2)
+        player1.display_grid()
+        player2.display_my_ships()
+        if player2.check_if_lost():
+            print("Player1 je zmagal!")
+            break
+
+        player2.make_move(player1)
+        player2.display_grid()
+        if player1.check_if_lost():
+            print("Player2 je zmagal!")
+            break
