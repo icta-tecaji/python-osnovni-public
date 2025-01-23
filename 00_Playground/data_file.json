@@ -1,0 +1,22 @@
+{
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "hobbies": [
+        "running",
+        "sky diving",
+        "singing"
+    ],
+    "age": 35.3,
+    "children": [
+        {
+            "firstName": "Alice",
+            "age": 16,
+            "man": false
+        },
+        {
+            "firstName": "Bob",
+            "age": null,
+            "man": true
+        }
+    ]
+}

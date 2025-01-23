@@ -1,6 +1,5 @@
 # TODOs
 - pickle
-- debug mode (VS code) za predstavitev kako je shranjeno v pythonu
 - user interface
 
 
