@@ -245,7 +245,7 @@ If you want to try out the examples in this tutorial without setting up Python o
 - [Python.org Online Console](https://www.python.org/shell/)
 - [Repl.it](https://replit.com/)
 - [Python Fiddle](http://pythonfiddle.com/)
-- [Trinket](https://trinket.io/)
+- [Coddy](https://coddy.tech/playground/python)
 - [Python Anywhere](https://www.pythonanywhere.com/)
 
 These cloud-based Python interpreters may not be able to execute some of the more complex examples in this tutorial, but they’re adequate for running most of the code and may be a nice way to get started. 
